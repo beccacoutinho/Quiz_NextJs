@@ -1,7 +1,7 @@
 import QuestaoModel from "../../../model/questao"
 import questoes from "../bancoDeQuestoes"
 
-export default(req, res) => {
+export default function questoesPorId(req, res) {
 
     const idSelecionado = +req.query.id
 
